@@ -13,44 +13,51 @@
             background-position: center;
             background-repeat: no-repeat;
             background-color: rgb(104, 127, 150);
+            background-size: 100%;
         }
         
         .login {
-            margin: 200px;
-            margin-left: 600px;
-            /*border: 5px solid black;*/
-            padding: 10px;
-            margin-top: 250px;
+            /*margin: 200px;*/
+            margin-left: 500px;
+            border: 5px solid rgb(240, 198, 119);
+            padding: 50px;
+            margin-top: 190px;
+            display: inline-block;
+            border-radius: 20px;
+            background-color: rgb(159, 166, 235);
+            width: 30%;
         }
         
         .loginbtn {
-            margin-left: 90px;
+            margin-left: 180px;
         }
     </style>
 </head>
 
 <body>
     <div class="login">
-        <label for="usern"><b><span style="border:2px solid black;padding:2px;background-color:orangered;color:white ">USERNAME</span>  : </b></label>
+        <label for="usern"><b><span style="border:2px solid black;padding:10px;background-color:black;font-size:20px;color:white;margin-left:50px;margin-top:60px ">USERNAME</span>  :  </b></label>
         <input type="text" placeholder="Enter Username" name="usern" required>
 
         <br>
         <br>
-        <label for="pass"><b><span style="border:2px solid black;padding:2px ;background-color: orangered;color:white">PASSWORD</span> : </b></label>
+        <br>
+        <label for="pass"><b><span style="border:2px solid black;padding:10px ;background-color: black;margin-left:50px;font-size:20px;color:white">PASSWORD</span>  : </b></label>
         <input type="text" placeholder="Enter the password" name="pass" required>
-        <br><br>
+        <br><br><br>
         <div class="remember">
-            <span style="margin-left:150px;font-size:18px">
+            <span style="margin-left:250px;font-size:18px; ">
             <label>
            
-            <input type="checkbox"name="remember"> Remember Me</span>
+            <input type="checkbox"name="remember"><b> Remember Me</b></span>
             </button>
             </label>
         </div>
         <br><br>
         <div class="loginbtn">
 
-            <button type="submit"> LOGIN </button>
+            <button type="submit"><span style="font-size:20px; "> LOGIN </span></button>
+
 
         </div>
         <br>
