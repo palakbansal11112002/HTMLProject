@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: wheat;
+}
+
+header {
+    background-color: salmon;
+    height: 120px;
+    background-image: url("./images/elmurst.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header ul {
+    list-style: none;
+    display: inline-flex;
+    height: 40px;
+    margin-top: 50px;
+    padding: 5px;
+}
+
+header ul li {
+    padding: 10px;
+    margin-left: 40px;
+    font-size: 20px;
+    border-radius: 60px;
+    border: 5px solid rgb(226, 73, 99);
+    line-height: 10px;
+    margin-top: -20px;
+    background-color: rgb(206, 149, 42);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.fa {
+    margin-right: 10px;
+}
+
+footer {
+    width: 100%;
+    height: 400px;
+    background-color: lightcoral;
+    line-height: 70px;
+    margin-top: 700px;
+}
+
+footer>h2 {
+    text-align: center;
+}
